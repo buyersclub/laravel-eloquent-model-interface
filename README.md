@@ -26,9 +26,9 @@ This is especially useful when you are using static analyzers such as PHPStan or
 # Usage
 
 ```
-use Buyersclub\Laravel\Eloquent\ModelInterface;
+use Buyersclub\Laravel\Eloquent\EloquentModelInterface;
 
-interface UserInterface extends ModelInterface
+interface UserInterface extends EloquentModelInterface
 {
     //
 }
