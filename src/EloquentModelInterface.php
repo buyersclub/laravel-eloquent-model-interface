@@ -17,6 +17,17 @@ interface EloquentModelInterface
     public function newQuery();
 
     /**
+     * @param  array  $options
+     * @return bool
+     */
+    public function save(array $options = []);
+
+    /**
+     * @return bool|null
+     */
+    public function delete();
+
+    /**
      * @return string|int|array
      */
     public function getKey();
