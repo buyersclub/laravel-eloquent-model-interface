@@ -28,7 +28,7 @@ interface EloquentModelInterface
     public function delete();
 
     /**
-     * @return string|int|array
+     * @return int|string
      */
     public function getKey();
 
